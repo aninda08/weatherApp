@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const { url, access_key } = {
     url: 'https://api.mapbox.com/geocoding/v5/mapbox.places/',
-    access_key: 'pk.eyJ1IjoiYW5pbmRhMDgiLCJhIjoiY2tiNnV0bHl2MDJkZDJzcDZweXV1aHBsNSJ9.d9bPgPpBb-EQxn_uXQFoD'
+    access_key: 'pk.eyJ1IjoiYW5pbmRhMDgiLCJhIjoiY2tiNnV0bHl2MDJkZDJzcDZweXV1aHBsNSJ9.d9bPgPpBb-EQxn_uXQFoDw'
 };
 
 const geocode = async (address, callback) => {
